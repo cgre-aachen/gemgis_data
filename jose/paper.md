@@ -69,12 +69,20 @@ Upon completion of the tutorials, the users will have learnt to:
 # Contents
 
 The tutorials are organized in a modular fashion and consist of three units:
-- Basic structural geological modeling with GemPy (3 notebooks)
+- Basic structural geological modeling with GemPy (4 notebooks)
 - Using \textbf{GemGIS} and \textbf{GemPy} for construction structural geological models based on teaching material (x notebooks)
 - Using post-processing to get more information out of your models (x notebooks) 
 
 ## Basic Structural Geological Modeling with GemPy
-\textbf{GemPy} is capabale of modeling parallel layers, folded layers, faulted layers, truncated layers and combinations of the aforementioned structures. The required input data for building a structural model in \textbf{GemPy} consists of locations for stratigraphic boundaries encountered on the surface (outcrops, mines) or in the subsurface (boreholes, seismic data) and orientation measurements representing the dip and the azimuth of the respective stratigraphic unit. The input is loaded and will be assigned different Series representing conformal surfaces which will be modeled using one scalar field. Surfaces within different Series will be calculated using different scalar fields. Each fault will be attributed to its own Series and hence modeled with a separat scalar field along which the faulting of the stratigraphic units occurs. 
+\textbf{GemPy} is capabale of modeling planar layers, folded layers, faulted layers, truncated layers and combinations of the aforementioned structures. The required input data for building a structural model in \textbf{GemPy} consists of locations for stratigraphic boundaries encountered on the surface (outcrops, mines) or in the subsurface (boreholes, seismic data) and orientation measurements representing the dip and the azimuth of the respective stratigraphic unit. The input is loaded and will be assigned different Series representing conformal surfaces which will be modeled using one scalar field. Surfaces within different Series will be calculated using different scalar fields. Each fault will be attributed to its own Series and hence modeled with a separat scalar field along which the faulting of the stratigraphic units occurs. The interpolation is performed meshless but a marching cube algorithm is used to create PyVista meshes from the voxel models for further visualization and post-processing.\\
+
+The first four notebooks illustrate how to create the different structures that \textbf{GemPy} is capable of modeling (Fig. \ref{fig1}): 
+- Planar layers
+- Folded layers
+- Faulted layers
+- Truncated layers
+
+
 
 ## Model Building using teaching materials
 
