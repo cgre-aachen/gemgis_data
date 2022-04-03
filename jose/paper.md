@@ -82,11 +82,22 @@ The first four notebooks illustrate how to create the different structures that 
 - Faulted layers
 - Truncated layers
 
-
+![Basic models representing planar layers, folded layers, faulted layers and truncated layers. \label{fig1}](./images/fig1.png)
 
 ## Model Building using teaching materials
 
+In the section for the basic structural geological, models were presented where only one structural feature was present. In this part of the tutorial, the models will include combinations of structural elements and therefore more complex models. In addition, a topography, similar to the topography of the Earth, will be added to the models based on contour lines provided with the geological maps. 
+
+The biggest change to the previous models is that the input data will not be provided as CSV-file but rather as Shape-Files created by the user in a GIS environment such as QGIS. These data sets will be loaded using the geopandas library and processed using \textbf{GemGIS} to generate the necessary input DataFrames for \textbf{GemPy}. 
+
 ## Post-Processing of Models
+
+Now that the user has become familiar with the data creation using QGIS, the data loading using geopandas, the data processing using \textbf{GemGIS} and the structural geological modeling using \textbf{GemPy}, methods are presented how to further visualize the results of the modeling and how to extract certain information from the model. These methods include but are by far not limited to:
+
+- Creating depth maps and contour lines for single stratigraphic boundaries
+- Exporting depth maps as ZMAP files for visualization in QGIS
+- Creating virtual boreholes and extract depths of intersected stratigraphic boundaries
+- 
 
 
 # Acknowledgements
