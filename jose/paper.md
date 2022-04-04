@@ -14,16 +14,16 @@ authors:
   - name: Miguel de la Varga
     affiliation: 3
   - name: Stefan Back
-  - affiliation: 2
+    affiliation: 2
   - name: Florian Wellmann
     orcid: 0000-0003-2552-1876
     affiliation: 4
 affiliations:
  - name: Fraunhofer IEG, Fraunhofer Research Institution for Energy Infrastructures and Geothermal Systems, Kockerellstraße 17, 52062 Aachen, Germany
- - index: 1
+   index: 1
  - name: RWTH Aachen University, Geological Institute, Wüllnerstraße 2, 52062 Aachen, Germnany
- - index: 2
-  - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen
+   index: 2
+ - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen
    index: 3
  - name: RWTH Aachen University , Computational Geoscience and Reservoir Engineering, Wüllnerstraße 2, 52062 Aachen, Germany
    index: 4
