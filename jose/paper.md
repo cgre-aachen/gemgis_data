@@ -76,6 +76,7 @@ The tutorials are organized in a modular fashion and consist of three units:
 ## Basic Structural Geological Modeling with GemPy
 **GemPy** is capable of modeling planar layers, folded layers, faulted layers, truncated layers and combinations of the aforementioned structures. The required input data for building a structural model in **GemPy** consists of locations for stratigraphic boundaries encountered on the surface (outcrops, mines) or in the subsurface (boreholes, seismic data) and orientation measurements representing the dip and the azimuth of the respective stratigraphic unit. The input is loaded and will be assigned different Series representing conformal surfaces which will be modeled using one scalar field. Surfaces within different Series will be calculated using different scalar fields. Each fault will be attributed to its own Series and hence modeled with a separat scalar field along which the faulting of the stratigraphic units occurs. The interpolation is performed meshless but a marching cube algorithm is used to create PyVista meshes from the voxel models for further visualization and post-processing.\\
 
+
 The first four notebooks illustrate how to create the different structures that **GemPy** is capable of modeling (Fig. \ref{fig1}): 
 - Planar layers
 - Folded layers
