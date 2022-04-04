@@ -96,7 +96,7 @@ The biggest change to the previous models is that the input data will not be pro
 
 ![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data \label{fig2}](./images/fig2.png)
 
-Examples 1 and 2 introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross sections displaying a 2D view along a given transect. 
+Examples 1 to 3 introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross sections displaying a 2D view along a given transect. 
 
 
 ## Post-Processing of Models
