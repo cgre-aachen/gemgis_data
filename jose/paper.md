@@ -91,6 +91,14 @@ In the section for the basic structural geological, models were presented where 
 
 The biggest change to the previous models is that the input data will not be provided as CSV-file but rather as Shape-Files created by the user in a GIS environment such as QGIS. These data sets will be loaded using the geopandas library and processed using **GemGIS** to generate the necessary input DataFrames for **GemPy**. 
 
+
+The biggest change to the previous models is that the input data will not be provided as CSV-file but rather as Shape-Files created by the user in a GIS environment such as QGIS. The very first step is to extract the maps from the teaching materials, crop it within an image editing software and georeference it using QGIS. The scale of the image must be honored. Otherwise, calculated dipping angles will not correspond to the original angles in the map. Then, the contour lines of the map will be digitized as LineStrings and the height information of each line stored in the attribute table. A digital elevation model will be calculated using **GemGIS**. The stratigraphic boundaries will also be digitized as LineStrings. The formation the boundaries belong to will be saved in the attribute table as well. The X and Y information will be extracted from the vertices, the Z information will be sampled from the digital elevation model at the respective positions as these boundaries were recorded on the surface. The orientations cannot be extracted from the maps directly. Here, we make use of the fact that orientations (dip and azimuth) can be calculated in **GemGIS** from a set of two parallel lines ("strike lines") with given vertical distance and measured horizontal distance connecting two outcropping points at the same altitude at the surface each. All data sets/shape files created in QGIS will be loaded using the geopandas library and processed using **GemGIS** to generate the necessary input DataFrames and the digital elevation model for **GemPy**. 
+
+![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data \label{fig2}](./images/fig2.png)
+
+Examples 1 and 2 introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross sections displaying a 2D view along a given transect. 
+
+
 ## Post-Processing of Models
 
 Now that the user has become familiar with the data creation using QGIS, the data loading using geopandas, the data processing using **GemGIS** and the structural geological modeling using **GemPy**, methods are presented how to further visualize the results of the modeling and how to extract certain information from the model. These methods include but are by far not limited to:
