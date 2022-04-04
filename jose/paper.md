@@ -23,7 +23,7 @@ affiliations:
    index: 1
  - name: RWTH Aachen University, Geological Institute, Wüllnerstraße 2, 52062 Aachen, Germnany
    index: 2
-  - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen
+ - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen
    index: 3
  - name: RWTH Aachen University , Computational Geoscience and Reservoir Engineering, Wüllnerstraße 2, 52062 Aachen, Germany
    index: 4
@@ -103,6 +103,6 @@ Now that the user has become familiar with the data creation using QGIS, the dat
 # Acknowledgements
 
 All authors would like to thank the Software Underground (https://softwareunderground.org/) for providing a platform to interact with users and to organize hackathons (Transform 2020/2021) to further develop the open-source package. 
-We also acknowledge contributions from, and thank all our users for reporting bugs, raising issues and suggesting improvements to the API of **GemGIS}. 
+We also acknowledge contributions from, and thank all our users for reporting bugs, raising issues and suggesting improvements to the API of **GemGIS**. 
 
 # References
