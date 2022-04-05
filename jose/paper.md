@@ -56,35 +56,35 @@ The following resources are provided before going through the tutorials. It is r
 # Learning Objectives
 
 Upon completion of the tutorials, the users will have learnt to:
-\begin{itemize}
-    \item Create the necessary raw data for **GemGIS** and **GemPy** using the open-source software QGIS
-    \item Explore and manipulate the raw data using the Pandas [@{pandas}] and GeoPandas libraries [@{geopandas}]
-    \item Process the raw data using **GemGIS** to create input data for **GemPy**
-    \item Create the 3D structural model using **GemPy**
-    \item Visualize the results using Matplotlib [@{matplotlib}] and PyVista [@{pyvista}]
-    \item Perform post-processing tasks 
-\end{itemize}
+
+    * Create the necessary raw data for **GemGIS** and **GemPy** using the open-source software QGIS
+    * Explore and manipulate the raw data using the Pandas [@{pandas}] and GeoPandas libraries [@{geopandas}]
+    * Process the raw data using **GemGIS** to create input data for **GemPy**
+    * Create the 3D structural model using **GemPy**
+    * Visualize the results using Matplotlib [@{matplotlib}] and PyVista [@{pyvista}]
+    * Perform post-processing tasks 
+
 
 # Contents
 
 The tutorials are organized in a modular fashion and consist of three units:
-\begin{itemize}
-    \item Basic structural geological modeling with GemPy (4 notebooks)
-    \item Using **GemGIS** and **GemPy** for construction structural geological models based on teaching material (x notebooks)
-    \item Using post-processing to get more information out of your models (x notebooks) 
-\end{itemize}
+
+    * Basic structural geological modeling with GemPy (4 notebooks)
+    * Using **GemGIS** and **GemPy** for construction structural geological models based on teaching material (x notebooks)
+    * Using post-processing to get more information out of your models (x notebooks) 
+
 
 ## Basic Structural Geological Modeling with GemPy
 **GemPy** is capable of modeling planar layers, folded layers, faulted layers, truncated layers and combinations of the aforementioned structures. The required input data for building a structural model in **GemPy** consists of locations for stratigraphic boundaries encountered on the surface (outcrops, mines) or in the subsurface (boreholes, seismic data) and orientation measurements representing the dip and the azimuth of the respective stratigraphic unit. The input is loaded and will be assigned different Series representing conformal surfaces which will be modeled using one scalar field (implicit modeling approach). Surfaces within different Series will be calculated using different scalar fields. Each fault will be attributed to its own Series and hence modeled with a separat scalar field along which the faulting of the stratigraphic units occurs. The interpolation is performed meshless but a marching cube algorithm is used to create PyVista meshes from the voxel models for further visualization and post-processing.
 
 
 The first four notebooks illustrate how to create the different structures that **GemPy** is capable of modeling (Fig. \ref{fig1}): 
-\begin{itemize}
-    \item Planar layers
-    \item Folded layers
-    \item Faulted layers
-    \item Truncated layers
-\end{itemize}
+
+    * Planar layers
+    * Folded layers
+    * Faulted layers
+    * Truncated layers
+
 
 ![Basic models representing planar layers, folded layers, faulted layers and truncated layers. \label{fig1}](./images/fig1.png)
 
@@ -102,12 +102,12 @@ Examples 1 to 3 introduce planar dipping layers with the topography created from
 ## Post-Processing of Models
 
 Now that the user has become familiar with the data creation using QGIS, the data loading using geopandas, the data processing using **GemGIS** and the structural geological modeling using **GemPy**, methods are presented how to further visualize the results of the modeling and how to extract certain information from the model. These methods include but are by far not limited to:
-\begin{itemize}
-    \item Creating depth maps and contour lines for single stratigraphic boundaries
-    \item Exporting depth maps as ZMAP files for visualization in QGIS
-    \item Creating virtual boreholes and extract depths of intersected stratigraphic boundaries
-    \item Creating ready-for publishing 3D models with Blender 
-\end{itemize}
+
+    * Creating depth maps and contour lines for single stratigraphic boundaries
+    * Exporting depth maps as ZMAP files for visualization in QGIS
+    * Creating virtual boreholes and extract depths of intersected stratigraphic boundaries
+    * Creating ready-for publishing 3D models with Blender 
+
 
 # Acknowledgements
 
