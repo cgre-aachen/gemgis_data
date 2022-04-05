@@ -57,21 +57,21 @@ The following resources are provided before going through the tutorials. It is r
 
 Upon completion of the tutorials, the users will have learnt to:
 
-    * Create the necessary raw data for **GemGIS** and **GemPy** using the open-source software QGIS
-    * Explore and manipulate the raw data using the Pandas [@{pandas}] and GeoPandas libraries [@{geopandas}]
-    * Process the raw data using **GemGIS** to create input data for **GemPy**
-    * Create the 3D structural model using **GemPy**
-    * Visualize the results using Matplotlib [@{matplotlib}] and PyVista [@{pyvista}]
-    * Perform post-processing tasks 
+    - Create the necessary raw data for **GemGIS** and **GemPy** using the open-source software QGIS
+    - Explore and manipulate the raw data using the Pandas [@{pandas}] and GeoPandas libraries [@{geopandas}]
+    - Process the raw data using **GemGIS** to create input data for **GemPy**
+    - Create the 3D structural model using **GemPy**
+    - Visualize the results using Matplotlib [@{matplotlib}] and PyVista [@{pyvista}]
+    - Perform post-processing tasks 
 
 
 # Contents
 
 The tutorials are organized in a modular fashion and consist of three units:
 
-    * Basic structural geological modeling with GemPy (4 notebooks)
-    * Using **GemGIS** and **GemPy** for construction structural geological models based on teaching material (x notebooks)
-    * Using post-processing to get more information out of your models (x notebooks) 
+    - Basic structural geological modeling with GemPy (4 notebooks)
+    - Using **GemGIS** and **GemPy** for construction structural geological models based on teaching material (x notebooks)
+    - Using post-processing to get more information out of your models (x notebooks) 
 
 
 ## Basic Structural Geological Modeling with GemPy
@@ -80,10 +80,10 @@ The tutorials are organized in a modular fashion and consist of three units:
 
 The first four notebooks illustrate how to create the different structures that **GemPy** is capable of modeling (Fig. \ref{fig1}): 
 
-    * Planar layers
-    * Folded layers
-    * Faulted layers
-    * Truncated layers
+    - Planar layers
+    - Folded layers
+    - Faulted layers
+    - Truncated layers
 
 
 ![Basic models representing planar layers, folded layers, faulted layers and truncated layers. \label{fig1}](./images/fig1.png)
@@ -103,10 +103,10 @@ Examples 1 to 3 introduce planar dipping layers with the topography created from
 
 Now that the user has become familiar with the data creation using QGIS, the data loading using geopandas, the data processing using **GemGIS** and the structural geological modeling using **GemPy**, methods are presented how to further visualize the results of the modeling and how to extract certain information from the model. These methods include but are by far not limited to:
 
-    * Creating depth maps and contour lines for single stratigraphic boundaries
-    * Exporting depth maps as ZMAP files for visualization in QGIS
-    * Creating virtual boreholes and extract depths of intersected stratigraphic boundaries
-    * Creating ready-for publishing 3D models with Blender 
+    - Creating depth maps and contour lines for single stratigraphic boundaries
+    - Exporting depth maps as ZMAP files for visualization in QGIS
+    - Creating virtual boreholes and extract depths of intersected stratigraphic boundaries
+    - Creating ready-for publishing 3D models with Blender 
 
 
 # Acknowledgements
