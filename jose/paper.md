@@ -13,7 +13,7 @@ authors:
     affiliation: "1, 2"
   - name: Miguel de la Varga
     affiliation: 3
-  - Nils Chudalla
+  - name: Nils Chudalla
     affiliation: 4
   - name: Stefan Back
     affiliation: 2
