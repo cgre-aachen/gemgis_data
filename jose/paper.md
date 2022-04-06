@@ -58,12 +58,13 @@ The following resources are provided before going through the tutorials. It is r
 # Learning Objectives
 
 Upon completion of the tutorials, the users will have learnt to:
-    - Create the necessary raw data for **GemGIS** and **GemPy** using the open-source software QGIS
-    - Explore and manipulate the raw data using the Pandas [@{pandas}] and GeoPandas libraries [@{geopandas}]
-    - Process the raw data using **GemGIS** to create input data for **GemPy**
-    - Create the 3D structural model using **GemPy**
-    - Visualize the results using Matplotlib [@{matplotlib}] and PyVista [@{pyvista}]
-    - Perform post-processing tasks 
+
+- Create the necessary raw data for **GemGIS** and **GemPy** using the open-source software QGIS
+- Explore and manipulate the raw data using the Pandas [@{pandas}] and GeoPandas libraries [@{geopandas}]
+- Process the raw data using **GemGIS** to create input data for **GemPy**
+- Create the 3D structural model using **GemPy**
+- Visualize the results using Matplotlib [@{matplotlib}] and PyVista [@{pyvista}]
+- Perform post-processing tasks 
 
 
 # Contents
