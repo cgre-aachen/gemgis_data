@@ -46,6 +46,7 @@ The subsurface below our feet is utilized in many different ways. We extract fre
 
 # Resources
 The following resources are provided before going through the tutorials. It is recommended to use an Anaconda Python distribution (https://www.anaconda.com/) and Jupyter Notebooks (https://jupyter.org/) to work with the tutorials. Both **GemPy** and **GemGIS** have been developed in recent years at the Department for Computational Geosciences and Reservoir Engineering at RWTH Aachen University, Germany (https://www.cgre.rwth-aachen.de/). Both libraries are stored on Github and have well-documented resources:
+
 - Tutorial Repository - https://github.com/cgre-aachen/gemgis_data
 - GemPy Repository - https://github.com/cgre-aachen/gemgis
 - GemPy Documentation - https://www.gempy.org
@@ -70,9 +71,10 @@ Upon completion of the tutorials, the users will have learnt to:
 # Contents
 
 The tutorials are organized in a modular fashion and consist of three units:
-    - Basic structural geological modeling with GemPy (4 notebooks)
-    - Using **GemGIS** and **GemPy** for construction structural geological models based on teaching material (20+ notebooks)
-    - Using post-processing to get more information out of your models (x notebooks) 
+
+- Basic structural geological modeling with GemPy (4 notebooks)
+- Using **GemGIS** and **GemPy** for construction structural geological models based on teaching material (20+ notebooks)
+- Using post-processing to get more information out of your models (x notebooks) 
 
 
 ## Basic Structural Geological Modeling with GemPy
@@ -80,10 +82,11 @@ The tutorials are organized in a modular fashion and consist of three units:
 
 
 The first four notebooks illustrate how to create the different structures that **GemPy** is capable of modeling (Fig. \ref{fig1}): 
-    - Planar layers
-    - Folded layers
-    - Faulted layers
-    - Truncated layers
+
+- Planar layers
+- Folded layers
+- Faulted layers
+- Truncated layers
 
 
 ![Basic models representing planar layers, folded layers, faulted layers and truncated layers. \label{fig1}](./images/fig1.png)
