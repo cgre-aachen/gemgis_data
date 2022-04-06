@@ -68,7 +68,7 @@ Upon completion of the tutorials, the users will have learnt to:
 - Perform post-processing tasks 
 
 
-# Contents
+# Contents and instructional design
 
 The tutorials are organized in a modular fashion and consist of three units:
 
@@ -112,6 +112,8 @@ Now that the user has become familiar with the data creation using QGIS, the dat
 - Creating virtual boreholes and extract depths of intersected stratigraphic boundaries
 - Creating ready-for publishing 3D models with Blender 
 - Transferring the models to an AR-Sandbox after [@{Wellmann2022}]
+
+# Experience of use in teaching and learning situations
 
 
 # Acknowledgements
