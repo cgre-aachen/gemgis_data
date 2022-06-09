@@ -24,9 +24,9 @@ authors:
 affiliations:
  - name: Fraunhofer IEG, Fraunhofer Research Institution for Energy Infrastructures and Geothermal Systems IEG, Kockerellstraße 17, 52062 Aachen, Germany
    index: 1
- - name: RWTH Aachen University, Geological Institute, Wüllnerstraße 2, 52062 Aachen, Germnany
+ - name: RWTH Aachen University, Geological Institute, Wüllnerstraße 2, 52062 Aachen, Germany
    index: 2
- - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen
+ - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen, Germany
    index: 3
  - name: RWTH Aachen University, Applied Geophysics 1: Computational Geoscience, Geothermal Energy and Reservoir Geophysics, Mathieustraße 30, 52074 Aachen, Germany
    index: 4
