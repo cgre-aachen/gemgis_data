@@ -28,7 +28,7 @@ affiliations:
    index: 2
  - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen, Germany
    index: 3
- - name: RWTH Aachen University, Applied Geophysics 1: Computational Geoscience, Geothermal Energy and Reservoir Geophysics, Mathieustraße 30, 52074 Aachen, Germany
+ - name: "RWTH Aachen University, Applied Geophysics 1: Computational Geoscience, Geothermal Energy and Reservoir Geophysics, Mathieustraße 30, 52074 Aachen, Germany"
    index: 4
 
 
