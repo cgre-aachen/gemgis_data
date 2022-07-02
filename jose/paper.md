@@ -116,14 +116,36 @@ Examples 1 to 3 (e.g. Fig. \ref{fig2}) introduce planar dipping layers with the 
 
 The next set of teaching material then addresses post-processing options for model representation in various typical forms. These methods include, but are not limited to:
 
-- Creating depth maps and contour lines for single stratigraphic boundaries (Fig. \ref{fig4})
-- Creating virtual boreholes and extract depths of intersected stratigraphic boundaries (Fig. \ref{fig5})
-- Exporting depth maps as ZMAP files for visualization in QGIS
-- Creating ready-for publishing 3D models with Blender 
-- Transferring the models to an AR-Sandbox using open-AR-sandbox [@{Wellmann2022}]
+### Creating depth maps and contour lines for single stratigraphic boundaries 
 
+**GemGIS** is capable of creating depth maps and contour lines from **GemPy** meshes for further analysis (Fig. \ref{fig4}). In addition, these depth maps can be exported as ZMAP files for map visualizations in QGIS.
 ![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png)
+
+### Creating virtual boreholes and extract depths of intersected stratigraphic boundaries 
+
+A very simple well sampling tool has been implemented to extract the intersected stratigraphic boundaries by an already existing well or by a planned well trajectory to validate the structural geological model or to propose a well prognosis, respectively (Fig. \ref{fig5}).
+
 ![Units A and unit B intersected by an arbitrary deviated well. \label{fig5}](./images/fig5.png)
+
+## Creating ready-for publishing 3D models with Blender 
+
+To maximize the learning outcome, additional visualization techniques can be accessed. The open-source developed 3D creation suite Blender provides tools to model and edit meshes, to animate models and to render the final result (Fig. \ref{fig6}). Ray tracing technologies and complex shaders for materials allow the creation of photorealistic renders of models [@{Blender}]. This way, the lecturer is capable of highlighting key aspects of geological models and producing attractive figures or videos on a professional level. 
+
+
+![Example 2 (see Fig. \ref{fig7}) visualized in Blender. \label{fig6}](./images/fig6.png)
+
+### Transferring the models to an AR-Sandbox using Open AR-sandbox 
+
+Structural geological models created with **GemGIS** and **GemPy** can be transferred to an Open AR-Sandbox (Fig. \ref{fig7}) [@{Wellmann2022}]. After recreating the original topography, the original structural model or the geological map will be displayed, respectively. By modifying the sandbox topography, the geological map being displayed will be updated accordingly. 
+
+![Geological model representation using Open AR-Sandbox [@{Wellmann2022}]: (A) digitization in GIS [@{bennison}]. (B) Reconstruction of topography in AR-Sandbox. (C) Generated 3-D model. (D) Geological map, calculated from 3-D geomodel and topography, projected in AR-Sandbox, view similar to original map. (E) and (F): modified topographies and updated geological map projections.  \label{fig7}](./images/fig7.png)
+
+
+
+
+
+
+
 
 # Experience of use in teaching and learning situations
 
