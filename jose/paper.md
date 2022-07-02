@@ -120,13 +120,13 @@ The next set of teaching material then addresses post-processing options for mod
 
 **GemGIS** is capable of creating depth maps and contour lines from **GemPy** meshes for further analysis (Fig. \ref{fig4}). In addition, these depth maps can be exported as ZMAP files for map visualizations in QGIS.
 
-![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png){ width=80% }
+![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png){ width=75% }
 
 ### Creating virtual boreholes and extract depths of intersected stratigraphic boundaries 
 
 A very simple well sampling tool has been implemented to extract the intersected stratigraphic boundaries by an already existing well or by a planned well trajectory to validate the structural geological model or to propose a well prognosis, respectively (Fig. \ref{fig5}).
 
-![Units A and unit B intersected by an arbitrary deviated well. \label{fig5}](./images/fig5.png){ width=80% }
+![Units A and unit B intersected by an arbitrary deviated well. \label{fig5}](./images/fig5.png){ width=75% }
 
 ## Creating ready-for publishing 3D models with Blender 
 
