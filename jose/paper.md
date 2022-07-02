@@ -110,7 +110,7 @@ The very first step is to extract the maps from the teaching materials, to proce
 
 Examples 1 to 3 (e.g. Fig. \ref{fig2}) introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross-sections displaying a 2D view along a given transect. Examples 4 to 11 present models with unconformable, folded and faulted layers. Notebooks 12 to 15 and 17 introduce solutions to the so-called "three-point-problems" in geology which can be solved with the help of **GemGIS**. Examples 16, 18 and 19 present more complex structures while examples 20 to 22 conclude the list of examples with special cases from the mining industry. Additional models (examples 23-33) are provided to complement the tutorials.
 
-![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data. \label{fig2}](./images/fig3.png){ width=75% }
+![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data. \label{fig2}](./images/fig3.png){ width=80% }
 
 ## Post-Processing of Models
 
@@ -120,20 +120,20 @@ The next set of teaching material then addresses post-processing options for mod
 
 **GemGIS** is capable of creating depth maps and contour lines from **GemPy** meshes for further analysis (Fig. \ref{fig4}). In addition, these depth maps can be exported as ZMAP files for map visualizations in QGIS.
 
-![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png)
+![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png){ width=80% }
 
 ### Creating virtual boreholes and extract depths of intersected stratigraphic boundaries 
 
 A very simple well sampling tool has been implemented to extract the intersected stratigraphic boundaries by an already existing well or by a planned well trajectory to validate the structural geological model or to propose a well prognosis, respectively (Fig. \ref{fig5}).
 
-![Units A and unit B intersected by an arbitrary deviated well. \label{fig5}](./images/fig5.png)
+![Units A and unit B intersected by an arbitrary deviated well. \label{fig5}](./images/fig5.png){ width=80% }
 
 ## Creating ready-for publishing 3D models with Blender 
 
 To maximize the learning outcome, additional visualization techniques can be accessed. The open-source developed 3D creation suite Blender provides tools to model and edit meshes, to animate models and to render the final result (Fig. \ref{fig6}). Ray tracing technologies and complex shaders for materials allow the creation of photorealistic renders of models [@{Blender}]. This way, the lecturer is capable of highlighting key aspects of geological models and producing attractive figures or videos on a professional level. 
 
 
-![Example 2 (see Fig. \ref{fig7}) visualized in Blender. \label{fig6}](./images/fig6.png)
+![Example 2 (see Fig. \ref{fig7}) visualized in Blender. \label{fig6}](./images/fig6.png){ width=80% }
 
 ### Transferring the models to an AR-Sandbox using Open AR-sandbox 
 
