@@ -103,14 +103,14 @@ In the section for the basic structural geological, models are presented where o
 
 The biggest advantage of this tutorial is that the input data is not provided as a CSV-file but as Shape-Files created by the user in a GIS environment such as QGIS (Fig. \ref{fig2}). Here, the user should already be aware which coordinate reference system the data is provided in. Using a cartesian coordinate system is recommended for the **GemPy** input data.
 
-The very first step is to extract the maps from the teaching materials, to process it in an image editing software and to georeference it using QGIS. The scale of the image must be honored. Otherwise, calculated dipping angles will not correspond to the original angles in the map. Then, the contour lines of the map are digitized as LineStrings and the height information of each line is  stored in the attribute table. A digital elevation model is calculated using **GemGIS** (Fig. \ref{fig3}). The stratigraphic boundaries are also digitized as LineStrings (Fig. \ref{fig3}). The formation the boundaries belong to is saved in the attribute table as well. The X and Y information are extracted from the vertices, the Z information is sampled from the digital elevation model at the respective positions as these boundaries were recorded on the surface. The orientations cannot be extracted from the maps directly. Here, we make use of the fact that orientations (dip and azimuth) can be calculated in **GemGIS** from a set of two parallel lines ("strike-lines") with given vertical distance and measured horizontal distance connecting two outcropping points at the same altitude at the surface each. All data sets/Shape-Files created in QGIS are loaded using the GeoPandas library and processed using **GemGIS** to generate the necessary input DataFrames and the digital elevation model for **GemPy**. 
+The very first step is to extract the maps from the teaching materials, to process it in an image editing software and to georeference it using QGIS. The scale of the image must be honored. Otherwise, calculated dipping angles will not correspond to the original angles in the map. Then, the contour lines of the map are digitized as LineStrings and the height information of each line is stored in the attribute table. A digital elevation model is calculated using **GemGIS** (Fig. \ref{fig3}). The stratigraphic boundaries are also digitized as LineStrings (Fig. \ref{fig3}). The formation the boundaries belong to is saved in the attribute table as well. The X and Y information are extracted from the vertices, the Z information is sampled from the digital elevation model at the respective positions as these boundaries were recorded on the surface. The orientations cannot be extracted from the maps directly. Here, we make use of the fact that orientations (dip and azimuth) can be calculated in **GemGIS** from a set of two parallel lines ("strike-lines") with given vertical distance and measured horizontal distance connecting two outcropping points at the same altitude at the surface each. All data sets/Shape-Files created in QGIS are loaded using the GeoPandas library and processed using **GemGIS** to generate the necessary input DataFrames and the digital elevation model for **GemPy**. 
 
 
 ![Selection of Example Models. \label{fig3}](./images/fig2.png)
 
 Examples 1 to 3 (e.g. Fig. \ref{fig2}) introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross-sections displaying a 2D view along a given transect. Examples 4 to 11 present models with unconformable, folded and faulted layers. Notebooks 12 to 15 and 17 introduce solutions to the so-called "three-point-problems" in geology which can be solved with the help of **GemGIS**. Examples 16, 18 and 19 present more complex structures while examples 20 to 22 conclude the list of examples with special cases from the mining industry. Additional models (examples 23-33) are provided to complement the tutorials.
 
-![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data. \label{fig2}](./images/fig3.png)
+![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data. \label{fig2}](./images/fig3.png){ width=75% }
 
 ## Post-Processing of Models
 
@@ -119,6 +119,7 @@ The next set of teaching material then addresses post-processing options for mod
 ### Creating depth maps and contour lines for single stratigraphic boundaries 
 
 **GemGIS** is capable of creating depth maps and contour lines from **GemPy** meshes for further analysis (Fig. \ref{fig4}). In addition, these depth maps can be exported as ZMAP files for map visualizations in QGIS.
+
 ![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png)
 
 ### Creating virtual boreholes and extract depths of intersected stratigraphic boundaries 
@@ -139,13 +140,6 @@ To maximize the learning outcome, additional visualization techniques can be acc
 Structural geological models created with **GemGIS** and **GemPy** can be transferred to an Open AR-Sandbox (Fig. \ref{fig7}) [@{Wellmann2022}]. After recreating the original topography, the original structural model or the geological map will be displayed, respectively. By modifying the sandbox topography, the geological map being displayed will be updated accordingly. 
 
 ![Geological model representation using Open AR-Sandbox [@{Wellmann2022}]: (A) digitization in GIS [@{bennison}]. (B) Reconstruction of topography in AR-Sandbox. (C) Generated 3-D model. (D) Geological map, calculated from 3-D geomodel and topography, projected in AR-Sandbox, view similar to original map. (E) and (F): modified topographies and updated geological map projections.  \label{fig7}](./images/fig7.png)
-
-
-
-
-
-
-
 
 # Experience of use in teaching and learning situations
 
