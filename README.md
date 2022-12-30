@@ -4,9 +4,9 @@
 
 
 [![PyPI](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
-![PyPI](https://img.shields.io/pypi/v/gemgis)
-![Conda](https://img.shields.io/conda/vn/conda-forge/gemgis)
-![GitHub](https://img.shields.io/github/license/cgre-aachen/gemgis)
+![PyPI](https://img.shields.io/pypi/v/gemgis_data)
+![Conda](https://img.shields.io/conda/vn/conda-forge/gemgis_data)
+![GitHub](https://img.shields.io/github/license/cgre-aachen/gemgis_data)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cgre-aachen/gemgis/main)
 ![Read the Docs](https://img.shields.io/readthedocs/gemgis)
 [![DOI](https://img.shields.io/badge/DOI-https%3A%2F%2Fdoi.org%2F10.5194%2Fegusphere--egu21--4613-blue)](https://doi.org/10.5194/egusphere-egu21-4613)
