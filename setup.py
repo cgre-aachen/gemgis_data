@@ -11,7 +11,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='gemgis_data',
     version=version,
-    #packages=find_packages(exclude=('test', 'data', 'notebooks')),
+    packages=find_packages(exclude=('jose', 'data', 'notebooks')),
     include_package_data=True,
     install_requires=[],
     url='https://github.com/cgre-aachen/gemgis_data',
