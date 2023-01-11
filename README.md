@@ -4,11 +4,11 @@
 
 
 [![PyPI](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
-![PyPI](https://img.shields.io/pypi/v/gemgis_data)
+[![PyPI version](http://img.shields.io/pypi/v/gemgis_data.svg)](https://pypi.org/project/gemgis_data/)
 ![Conda](https://img.shields.io/conda/vn/conda-forge/gemgis_data)
-![GitHub](https://img.shields.io/github/license/cgre-aachen/gemgis_data)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/cgre-aachen/gemgis_data/blob/main/LICENSE)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cgre-aachen/gemgis/main)
-![Read the Docs](https://img.shields.io/readthedocs/gemgis)
+[![Documentation Status](https://assets.readthedocs.org/static/projects/badges/passing-flat.svg)](https://gemgis.readthedocs.io/en/latest/index.html)
 [![DOI](https://img.shields.io/badge/DOI-https%3A%2F%2Fdoi.org%2F10.5194%2Fegusphere--egu21--4613-blue)](https://doi.org/10.5194/egusphere-egu21-4613)
 [![DOI](https://zenodo.org/badge/309125606.svg)](https://zenodo.org/badge/latestdoi/309125606)
 
