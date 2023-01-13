@@ -28,7 +28,7 @@ affiliations:
    index: 2
  - name: Terranigma Solutions GmbH, Laurentiusstraße 59, 52072 Aachen, Germany
    index: 3
- - name: "RWTH Aachen University, Applied Geophysics 1: Computational Geoscience, Geothermal Energy and Reservoir Geophysics, Mathieustraße 30, 52074 Aachen, Germany"
+ - name: "RWTH Aachen University, Institute for Computational Geoscience, Geothermics and Reservoir Geophysics, Mathieustraße 30, 52074 Aachen, Germany"
    index: 4
 
 
@@ -53,12 +53,12 @@ The tutorial materials presented here are adopted from a mapping class for under
 The following resources are provided before going through the tutorials. It is recommended to use an [Anaconda Python distribution](https://www.anaconda.com/) and [Jupyter Notebooks](https://jupyter.org/) to access the tutorials. Both **GemPy** and **GemGIS** have been developed in recent years at the [Department for Computational Geosciences and Reservoir Engineering at RWTH Aachen University, Germany](https://www.cgre.rwth-aachen.de/). Both libraries are stored on Github and have well-documented resources:
 
 - [Tutorial Repository](https://github.com/cgre-aachen/gemgis_data)
-- [GemPy Repository](https://github.com/cgre-aachen/gemgis)
-- [GemPy Documentation](https://www.gempy.org)
-- [GemPy Installation](https://www.gempy.org/installation)
+- [GemGIS Documentation and Installation](https://gemgis.readthedocs.io/)
 - [GemGIS Repository](https://github.com/cgre-aachen/gemgis)
-- [GemGIS Documentation](https://gemgis.readthedocs.io/)
-- [GemGIS Installation](https://gemgis.readthedocs.io/en/latest/getting_started/installation.html)
+- [GemPy Documentation and Installation](https://www.gempy.org)
+- [GemPy Repository](https://github.com/cgre-aachen/gemgpy)
+
+
 
 
 # Learning Objectives
@@ -146,6 +146,15 @@ Structural geological models created with **GemGIS** and **GemPy** can be transf
 The tutorials can easily be taught by other teaching instructors to their students. The requirements to do so include general knowledge of the Python ecosystem including libraries like NumPy, Matplotlib, Pandas or GeoPandas. Furthermore, the instructor should be somewhat familiar with the **GemPy** and **GemGIS** libraries to be able to explain the different steps of the data processing workflow and the structural modeling itself. Knowledge about the implicit modeling theory **GemPy** builds upon is helpful. 
 
 Structural geological models are the first models needed for further modeling tasks or simulations in many different fields, e.g. groundwater studies, geothermal exploration, oil and gas exploration, mining. Students being aware of the possibility to create structural geological models for later projects or thesis work with **GemPy** and **GemGIS** are much more likely to engage in these kinds of projects as they know how to create the first fundamental piece necessary for a particular research question. Several bachelor and master projects at RWTH Aachen University have therefore been performed with the aid of these Python packages already. 
+
+# CRediT author statement
+
+- AJ: Conceptualization of the tutorial series, Development of the GemGIS Software, Creation of the tutorial models, Writing first version of the manuscript
+- MdlV: Software Development and Maintenance of the GemPy Software,
+- NC: Review and editing of the manuscript, Blender visualization
+- SB: Providing the resources (maps) for the tutorials as part of his class at RWTH, Review and editing of the manuscript
+- FW: Review and editing of the manuscript, Supervision and Administration for the GemPy and GemGIS projects
+
 
 # Acknowledgements
 
