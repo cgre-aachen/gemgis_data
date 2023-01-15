@@ -24,6 +24,14 @@ For more information about GemGIS and GemPy see the dedicated Github Repositorie
 - [GemPy Repository](https://github.com/cgre-aachen/gempy)
 - [GemPy Installation & Docs](https://www.gempy.org/installation)
 
+## Target Audience
+
+The tutorials provided in this repository aim at enabling students who want to become familiar with structural geological modeling in GemPy to have a smooth start. Further, the tutorials serve as aids for researchers to set up and parametrize their structural geological models properly. Lectures are encouraged to use and adapt the provided tutorials for their own Python and Structural Geological Modeling classes. 
+
+## Dependencies
+
+The GemGIS package mainly depends on [GeoPandas/Pandas](https://geopandas.org/en/stable/index.html), [Rasterio](https://rasterio.readthedocs.io/en/latest/) and [PyVista](https://docs.pyvista.org/). All geometric operations are performed using [Shapely](https://shapely.readthedocs.io/en/stable/manual.html). Numerical operations are performed using [NumPy](https://numpy.org/doc/stable/index.html) while plotting is done with [Matplotlib](https://matplotlib.org/). The structural modeling package [GemPy](https://www.gempy.org) is an optional dependency but is required to build the structural geological models. 
+
 <a name="ref"></a>
 ## References
 
