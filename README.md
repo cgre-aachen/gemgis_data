@@ -24,6 +24,13 @@ For more information about GemGIS and GemPy see the dedicated Github Repositorie
 - [GemPy Repository](https://github.com/cgre-aachen/gempy)
 - [GemPy Installation & Docs](https://www.gempy.org/installation)
 
+## Purpose of structural geological models in Earth Sciences
+
+Structural geological models describe the spatial distribution of layers in the subsurface. This includes the extent and depth distribution of either lithological layers (e.g. sand or clay, sandstones, carbonates, evaporites, etc.) or stratigraphic units for more regional questions of the structure of the subsurface (e.g. Base Tertiary, transition to basement rocks, etc.). The resulting structures can be used to parametrize the rocks between these constructed bounding surfaces for a wide range of applications. These include but are not limited to hydrogeological applications, geohazards, ressource extraction (e.g. fresh water, thermal waters, hydrocarbons, minerals), storage applications (e.g. thermal waters, gases such as CO2 or hydrogen, nuclear waste). 
+
+
+
+
 ## Target Audience
 
 The tutorials provided in this repository aim at enabling students who want to become familiar with structural geological modeling in GemPy to have a smooth start. Further, the tutorials serve as aids for researchers to set up and parametrize their structural geological models properly. Lectures are encouraged to use and adapt the provided tutorials for their own Python and Structural Geological Modeling classes. 
