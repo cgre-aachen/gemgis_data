@@ -18,8 +18,8 @@
 
 This repository provides the notebooks and data to the [example models](https://gemgis.readthedocs.io/en/latest/getting_started/example/index.html) of GemGIS and GemPy. It is set up as course adapted from two Bachelor courses at RWTH Aachen University, Germany ([Geological methods and geological map](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bqxx/Angewandte-Geowissenschaften-B-Sc/?lidx=1) & [Introduction to geological maps](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bllm/Georessourcenmanagement-B-Sc/?lidx=1)). The course contains the following sections:
 
-1. [Introduction to structural geological modeling using GemPy and GemGIS](#introduction-to-structural-geological-modeling-using-gempy-and-gemgis)
-    1. [Introdurction to structural geological models](#introduction-to-structural-geological-models)
+1. [Introduction to structural geological modeling using GemPy and GemGIS](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/00_introduction_to_structural_modeling.ipynb)
+    1. [Introduction to structural geological models](#introduction-to-structural-geological-models)
     2. [Introduction to GemPy and GemGIS](#introduction-to-gempy-and-gemgis)
     3. [Resources for GemPy and GemGIS](#resources-for-gemgis-gempy)
     4. [Installation of GemPy and GemGIS](#installation-of-gempy-and-gemgis)
