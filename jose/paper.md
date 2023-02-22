@@ -17,6 +17,7 @@ authors:
   - name: Nils Chudalla
     affiliation: 4
   - name: Stefan Back
+    orcid: 0000-0003-3134-3367
     affiliation: 2
   - name: Florian Wellmann
     orcid: 0000-0003-2552-1876
