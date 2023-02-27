@@ -13,29 +13,46 @@
 [![DOI](https://zenodo.org/badge/309125606.svg)](https://zenodo.org/badge/latestdoi/309125606)
 
 <p align="center"><img src="https://raw.githubusercontent.com/cgre-aachen/gemgis/main/docs/getting_started/images/task1.png" width="200"><img src="https://raw.githubusercontent.com/cgre-aachen/gemgis/main/docs/getting_started/images/model1.png" width="300"></p>
+Source: Powell, D. (1995): Interpretation geologischer Strukturen durch Karten - Eine praktische Anleitung mit Aufgaben und Lösungen, page 15, figure 10 A, Springer Verlag Berlin, Heidelberg, New York, ISBN: 978-3-540-58607-4.
 
 ## Overview 
 
-This repository provides the notebooks and data to the [example models](https://gemgis.readthedocs.io/en/latest/getting_started/example/index.html) of GemGIS and GemPy. It is set up as course adapted from two Bachelor courses at RWTH Aachen University, Germany ([Geological methods and geological map](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bqxx/Angewandte-Geowissenschaften-B-Sc/?lidx=1) & [Introduction to geological maps](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bllm/Georessourcenmanagement-B-Sc/?lidx=1)). The course contains the following sections:
+This repository provides the notebooks and data to the [example models](https://gemgis.readthedocs.io/en/latest/getting_started/example/index.html) of GemGIS and GemPy. It is set up as course adapted from two Bachelor courses at RWTH Aachen University, Germany ([Geological methods and geological map](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bqxx/Angewandte-Geowissenschaften-B-Sc/?lidx=1) & [Introduction to geological maps](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bllm/Georessourcenmanagement-B-Sc/?lidx=1)). The easiest way to access the data is to [download the repository including all data from Github](https://github.com/cgre-aachen/gemgis_data/archive/refs/heads/main.zip). The course contains the following sections:
 
 1. [Introduction to structural geological modeling using GemPy and GemGIS](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/00_introduction_to_structural_modeling.ipynb)
-    1. [Introduction to structural geological models](#introduction-to-structural-geological-models)
-    2. [Introduction to GemPy and GemGIS](#introduction-to-gempy-and-gemgis)
-    3. [Resources for GemPy and GemGIS](#resources-for-gemgis-gempy)
-    4. [Installation of GemPy and GemGIS](#installation-of-gempy-and-gemgis)
-2. Modeling of the basic structures in GemPy
-    1. Modeling planar layers
-    2. Modeling folded layers
-    3. Modeling faulted layers
-    4. Modeling truncated/unconformal layers
+    1. Introduction to structural geological models
+    2. Introduction to GemPy and GemGIS
+    3. Resources for GemPy and GemGIS
+    4. Installation of GemPy and GemGIS
+2. [Modeling of the basic structures in GemPy](https://github.com/cgre-aachen/gemgis_data/tree/main/notebooks/01_basic_modeling)
+    1. [Modeling planar layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model1_Horizontal_Layers.ipynb)
+    2. [Modeling folded layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model2_Folded_Layers.ipynb)
+    3. [Modeling faulted layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model3_Faulted_Layers.ipynb)
+    4. [Modeling truncated/unconformal layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model4_Truncated_Layers.ipynb)
 3. Modeling of more complex models including additional tasks (main part)
+    1. [Planar dipping layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/02_planar_dipping_layers)
+    2. [Folded layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/03_folded_layers)
+    3. [Faulted layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/04_faulted_layers)
+    4. [Unconformal layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/05_unconformal_layers)
+    5. [Combination of models](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/06_combined_models)
+    6. [Special Case Models](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/07_special_models)
 4. Post-processing of structural geological models using GemGIS
 
 For more information about GemGIS and GemPy see the dedicated Github Repositories and Documentation pages:
-- [GemGIS Repository](https://github.com/cgre-aachen/gemgis)
-- [GemGIS Installation & Docs](https://gemgis.readthedocs.io/en/latest/getting_started/installation.html)
-- [GemPy Repository](https://github.com/cgre-aachen/gempy)
-- [GemPy Installation & Docs](https://www.gempy.org/installation)
+1. GemPy
+    1. [Github Repository](https://github.com/cgre-aachen/gempy)
+    2. [GemPy Documentation](https://www.gempy.org/)
+    3. [GemPy Installation](https://www.gempy.org/installation)
+    4. [GemPy Publication](https://gmd.copernicus.org/articles/12/1/2019/)
+    5. [Tutorial: Geological Modeling with GemPy @Transform 2020](https://www.youtube.com/watch?v=n0btC5Zilyc&t=1s)
+    6. [Tutorial: Geological Modeling with GemPy @Transform 2021](https://www.youtube.com/watch?v=1oS6xTJkRwo)
+    7. [Tutorial: Geological Modeling with GemPy ](https://www.youtube.com/watch?v=7P6WrBOaHSM)
+    
+2. GemGIS
+    1. [Github Repository](https://github.com/cgre-aachen/gemgis)
+    2. [GemGIS Documentation](https://gemgis.readthedocs.io/)
+    3. [GemGIS Installation](https://gemgis.readthedocs.io/en/latest/getting_started/installation.html)
+    4. [GemGIS Publication](https://joss.theoj.org/papers/10.21105/joss.03709)
 
 ## Purpose of structural geological models in Earth Sciences
 
@@ -56,7 +73,8 @@ The GemGIS package mainly depends on [GeoPandas/Pandas](https://geopandas.org/en
 ## References
 
 * Jüstel, A., Endlein Correira, A., Wellmann, F. and Pischke, M.: GemGIS – GemPy Geographic: Open-Source Spatial Data Processing for Geological Modeling. EGU General Assembly 2021, https://doi.org/10.5194/egusphere-egu21-4613, 2021
+* Jüstel, A., Endlein Correira, A., Pischke, M. and Wellmann, F.: GemGIS - Spatial Data Processing for Geomodeling. Journal of Open Source Software, 7(73), 3709, https://doi.org/10.21105/joss.03709, 2022
 * Jüstel, A.: 3D Probabilistic Modeling and Data Analysis of the Aachen-Weisweiler Area: Implications for Deep Geothermal Energy Exploration, unpublished Master Thesis at RWTH Aachen University, 2020
 * de la Varga, M., Schaaf, A., and Wellmann, F.: GemPy 1.0: open-source stochastic geological modeling and inversion, Geosci. Model Dev., 12, 1-32, https://doi.org/10.5194/gmd-12-1-2019, 2019
-* Powell, D.: Interpretation of Geological Structures Through Maps: An Introductory Practical Manual, Longman, pp. 192, 1992
-* Bennison, G.M.: An Introduction to Geological Structures and Maps, Hodder Education Publication, pp. 78, 1990
+* Powell, D.: Interpretation geologischer Strukturen durch Karten - Eine praktische Anleitung mit Aufgaben und Lösungen, Springer Verlag Berlin, Heidelberg, New York, ISBN: 978-3-540-58607-4, 1995
+* Bennison, G.M.: An Introduction to Geological Structures and Maps, Hodder Education Publication, pp. 78, ISBN: 978-1-4615-9632-5, 1988
