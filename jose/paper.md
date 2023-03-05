@@ -16,6 +16,9 @@ authors:
     affiliation: 3
   - name: Nils Chudalla
     affiliation: 4
+  - name: Jan David Wagner
+    affiliation: "1, 2"
+    orcid: 0009-0007-7673-8334
   - name: Stefan Back
     orcid: 0000-0003-3134-3367
     affiliation: 2
@@ -77,11 +80,15 @@ Upon completion of the tutorials, the users will have learnt to:
 
 # Contents and instructional design
 
-The tutorials are organized in a modular fashion and consist of three units as shown below. For each model, all the input data and a QGIS project are already shipped with the repository for users to explore the original maps and to be able to reproduce the input data for the structural modeling. With this material, the user will also develop awareness on how to process one's own datasets for future structural modeling. 
+The tutorials are organized in a modular fashion and consist of seven units as shown below. For each model, all the input data and a QGIS project are already shipped with the repository for users to explore the original maps and to be able to reproduce the input data for the structural modeling. With this material, the user will also develop awareness on how to process one's own datasets for future structural modeling. The notebooks also contain common post-processing tasks on how to utilize the created structural geological models. 
 
 - Basic structural geological modeling with **GemPy** (4 notebooks)
-- Using **GemGIS** and **GemPy** for construction of more complex structural geological models based on teaching material (20+ notebooks)
-- Using post-processing to get more information out of your models (2 notebooks so far) 
+- Modeling planar dipping layers with **GemGIS** and **GemPy** (3 notebooks) 
+- Modeling folded layers with **GemGIS** and **GemPy** (3 notebooks) 
+- Modeling faulted layers with **GemGIS** and **GemPy** (3 notebooks) 
+- Modeling unconformable layers with **GemGIS** and **GemPy** (3 notebooks) 
+- Modeling combinded models with **GemGIS** and **GemPy** (3 notebooks) 
+- Modeling special cases with **GemGIS** and **GemPy** (3 notebooks) 
 
 
 ## Basic Structural Geological Modeling with GemPy
@@ -109,19 +116,19 @@ The very first step is to extract the maps from the teaching materials, to proce
 
 ![Selection of Example Models. \label{fig3}](./images/fig2.png)
 
-Examples 1 to 3 (e.g. Fig. \ref{fig2}) introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross-sections displaying a 2D view along a given transect. Examples 4 to 11 present models with unconformable, folded and faulted layers. Notebooks 12 to 15 and 17 introduce solutions to the so-called "three-point-problems" in geology which can be solved with the help of **GemGIS**. Examples 16, 18 and 19 present more complex structures while examples 20 to 22 conclude the list of examples with special cases from the mining industry. Additional models (examples 23-33) are provided to complement the tutorials.
+Examples 1 to 3 (e.g. Fig. \ref{fig2}) introduce planar dipping layers with the topography created from contour lines, orientations either provided or calculated from "strike-lines" and custom cross-sections displaying a 2D view along a given transect. Examples 4 to 12 present models with folded, faulted and unconformable layers. Notebooks 13 to 15 present combinations of different structures and hence more complex models. Notebooks 16 to 18 introduce solutions to the so-called "three-point-problems" in geology which can be solved with the help of **GemGIS**. Additional models are provided to complement the tutorials if more practice is needed.
 
 ![Basic QGIS-GemGIS-GemPy workflow to create structural geological models from map data. \label{fig2}](./images/fig3.png){ width=80% }
 
 ## Post-Processing of Models
 
-The next set of teaching material then addresses post-processing options for model representation in various typical forms. These methods include, but are not limited to:
+Common post-processing tasks utilizing the structural geological models are addressed at the end of several notebooks. These methods include, but are not limited to:
 
 ### Creating depth maps and contour lines for single stratigraphic boundaries 
 
 **GemGIS** is capable of creating depth maps and contour lines from **GemPy** meshes for further analysis (Fig. \ref{fig4}). In addition, these depth maps can be exported as ZMAP files for map visualizations in QGIS.
 
-![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png){ width=75% }
+![Depth maps for unit A and unit B of example 5. \label{fig4}](./images/fig4.png){ width=75% } 
 
 ### Creating virtual boreholes and extract depths of intersected stratigraphic boundaries 
 
@@ -136,7 +143,7 @@ To maximize the learning outcome, additional visualization techniques can be acc
 
 ![Example 2 (see Fig. \ref{fig7}) visualized in Blender. \label{fig6}](./images/fig6.png){ width=80% }
 
-### Transferring the models to an AR-Sandbox using Open AR-sandbox 
+### Transferring the models to an AR-Sandbox using Open AR-sandbox (argumented reality sandbox)
 
 Structural geological models created with **GemGIS** and **GemPy** can be transferred to an Open AR-Sandbox (Fig. \ref{fig7}) [@{Wellmann2022}]. After recreating the original topography, the original structural model or the geological map will be displayed, respectively. By modifying the sandbox topography, the geological map being displayed will be updated accordingly. 
 
