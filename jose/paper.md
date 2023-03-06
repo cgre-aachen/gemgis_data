@@ -143,7 +143,7 @@ To maximize the learning outcome, additional visualization techniques can be acc
 
 ![Example 2 (see Fig. \ref{fig7}) visualized in Blender. \label{fig6}](./images/fig6.png){ width=80% }
 
-### Transferring the models to an AR-Sandbox using Open AR-sandbox (argumented reality sandbox)
+### Transferring the models to an AR-Sandbox using Open AR-sandbox (augmented reality sandbox)
 
 Structural geological models created with **GemGIS** and **GemPy** can be transferred to an Open AR-Sandbox (Fig. \ref{fig7}) [@{Wellmann2022}]. After recreating the original topography, the original structural model or the geological map will be displayed, respectively. By modifying the sandbox topography, the geological map being displayed will be updated accordingly. 
 
