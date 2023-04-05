@@ -149,6 +149,7 @@ Structural geological models created with **GemGIS** and **GemPy** can be transf
 
 ![Geological model representation using Open AR-Sandbox [@{Wellmann2022}]: (A) digitization in GIS [@{bennison}]. (B) Reconstruction of topography in AR-Sandbox. (C) Generated 3-D model. (D) Geological map, calculated from 3-D geomodel and topography, projected in AR-Sandbox, view similar to original map. (E) and (F): modified topographies and updated geological map projections.  \label{fig7}](./images/fig7.png)
 
+
 # Experience of use in teaching and learning situations
 
 The tutorials are currently linked to two courses at RWTH Aachen University, Germany, in two different undergraduate programs. These are [B.Sc. Applied Geosciences]{https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bqxx/Angewandte-Geowissenschaften-B-Sc/?lidx=1} and [B.Sc. Georesources Management]{https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bllm/Georessourcenmanagement-B-Sc/?lidx=1}. The courses themselves are "Geological methods and geological maps" and "Introduction to geological maps", respectively. Both courses are taught twice a week for the entire semester for 1.5 h each with one teaching session and one tutorial session with two instructors and a maximum of 30 students with a total workload of 60 h or 30 h for the respective program. The students have to construct one model per week and present it during the tutorial session. 
@@ -156,6 +157,9 @@ The tutorials are currently linked to two courses at RWTH Aachen University, Ger
 The tutorials can easily be taught by other teaching instructors to their students. The requirements to do so include general knowledge of the Python ecosystem including libraries like NumPy, Matplotlib, Pandas or GeoPandas. Furthermore, the instructor should be somewhat familiar with the **GemPy** and **GemGIS** libraries to be able to explain the different steps of the data processing workflow and the structural modeling itself. Knowledge about the implicit modeling theory **GemPy** builds upon is helpful. 
 
 Structural geological models are the first models needed for further modeling tasks or simulations in many different fields, e.g. groundwater studies, geothermal exploration, oil and gas exploration, mining, and geohazard assessments. Students being aware of the possibility to create structural geological models for later projects or thesis work with **GemPy** and **GemGIS** are much more likely to engage in these kinds of projects as they know how to create the first fundamental piece necessary for a particular research question. Several bachelor and master projects at RWTH Aachen University have therefore been performed with the aid of these Python packages already. 
+
+GemGIS models are further used for newly implemented virtual reality (VR) teaching applications for the previously mentioned mapping class at the RWTH Aachen University. Utilizing these detailed and accurate models, instructors can provide students with a more immersive and engaging learning experience that goes beyond traditional textbooks and lectures. GemGIS models can also be easily manipulated and customized, allowing for interactive exploration and experimentation that can enhance students' understanding of geological concepts. For more information, see:  [XrGIS]{https://github.com/cgre-aachen/XrGIS}
+
 
 # CRediT author statement
 
