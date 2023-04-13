@@ -158,8 +158,9 @@ The tutorials can easily be taught by other teaching instructors to their studen
 
 Structural geological models are the first models needed for further modeling tasks or simulations in many different fields, e.g. groundwater studies, geothermal exploration, oil and gas exploration, mining, and geohazard assessments. Students being aware of the possibility to create structural geological models for later projects or thesis work with **GemPy** and **GemGIS** are much more likely to engage in these kinds of projects as they know how to create the first fundamental piece necessary for a particular research question. Several bachelor and master projects at RWTH Aachen University have therefore been performed with the aid of these Python packages already. 
 
-GemGIS models are further used for newly implemented virtual reality (VR) teaching applications for the previously mentioned mapping class at the RWTH Aachen University. Utilizing these detailed and accurate models, instructors can provide students with a more immersive and engaging learning experience that goes beyond traditional textbooks and lectures. GemGIS models can also be easily manipulated and customized, allowing for interactive exploration and experimentation that can enhance students' understanding of geological concepts. For more information, see:  [XrGIS]{https://github.com/cgre-aachen/XrGIS}
+GemGIS models are further used for newly implemented virtual reality (VR) teaching applications for the previously mentioned mapping class at the RWTH Aachen University. Utilizing these detailed and accurate models, instructors can provide students with a more immersive and engaging learning experience that goes beyond traditional textbooks and lectures (Fig. \ref{fig8}). GemGIS models can also be easily manipulated and customized, allowing for interactive exploration and experimentation that can enhance students' understanding of geological concepts (Fig. \ref{fig8}). For more information, see:  [XrGIS]{https://github.com/cgre-aachen/XrGIS}
 
+![VR experience using XrGIS and GemGIS. \label{fig8}](./images/fig8.jpg){ width=80% }
 
 # CRediT author statement
 
