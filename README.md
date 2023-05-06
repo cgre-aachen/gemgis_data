@@ -69,6 +69,13 @@ The tutorials provided in this repository aim at enabling students who want to b
 
 The GemGIS package mainly depends on [GeoPandas/Pandas](https://geopandas.org/en/stable/index.html), [Rasterio](https://rasterio.readthedocs.io/en/latest/) and [PyVista](https://docs.pyvista.org/). All geometric operations are performed using [Shapely](https://shapely.readthedocs.io/en/stable/manual.html). Numerical operations are performed using [NumPy](https://numpy.org/doc/stable/index.html) while plotting is done with [Matplotlib](https://matplotlib.org/). The structural modeling package [GemPy](https://www.gempy.org) is an optional dependency but is required to build the structural geological models. 
 
+The following dependency versions are recommended for using GemGIS (as of 2023-05-06):
+- Python >=3.9
+- GeoPandas >= 0.13 (lastest version update on 2023-06-05) 
+- Rasterio >= 1.3.6 (lastest version update on 2023-06-05) 
+- PyVista >= 0.39 (lastest version update on 2023-06-05) 
+- GemPy >= 2.2.12 (lastest version update on 2022-07-22) 
+
 <a name="ref"></a>
 ## References
 
