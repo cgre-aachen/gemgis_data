@@ -33,12 +33,12 @@ This repository provides the notebooks and data to the [example models](https://
     3. [Modeling faulted layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model3_Faulted_Layers.ipynb)
     4. [Modeling truncated/unconformal layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model4_Truncated_Layers.ipynb)
 3. Modeling of more complex models including additional tasks (main part)
-    1. [Planar dipping layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/02_planar_dipping_layers)
-    2. [Folded layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/03_folded_layers)
-    3. [Faulted layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/04_faulted_layers)
-    4. [Unconformal layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/05_unconformal_layers)
-    5. [Combination of models](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/06_combined_models)
-    6. [Special Case Models](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/07_special_models)
+    1. [Planar dipping layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/02_planar_dipping_layers)
+    2. [Folded layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/03_folded_layers)
+    3. [Faulted layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/04_faulted_layers)
+    4. [Unconformal layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/05_unconformal_layers)
+    5. [Combination of models](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/06_combined_models)
+    6. [Special Case Models](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/07_special_models)
 4. Post-processing of structural geological models using GemGIS
 
 For more information about GemGIS and GemPy see the dedicated Github Repositories and Documentation pages:
