@@ -63,7 +63,7 @@ Structural geological models describe the spatial distribution of layers in the 
 
 ## Target Audience
 
-The tutorials provided in this repository aim at enabling students who want to become familiar with structural geological modeling in GemPy to have a smooth start. Further, the tutorials serve as aids for researchers to set up and parametrize their structural geological models properly. Lectures are encouraged to use and adapt the provided tutorials for their own Python and Structural Geological Modeling classes. 
+The tutorials provided in this repository aim at enabling students who want to become familiar with structural geological modeling in GemPy to have a smooth start. Further, the tutorials serve as aids for researchers to set up and parametrize their structural geological models properly. Lecturers are encouraged to use and adapt the provided tutorials for their own Python and Structural Geological Modeling classes. 
 
 ## Dependencies
 
