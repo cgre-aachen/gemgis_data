@@ -19,16 +19,19 @@ Source: Powell, D. (1995): Interpretation geologischer Strukturen durch Karten -
 
 This repository provides the notebooks and data to the [example models](https://gemgis.readthedocs.io/en/latest/getting_started/example/index.html) of GemGIS and GemPy. It is set up as course adapted from two Bachelor courses at RWTH Aachen University, Germany ([Geological methods and geological map](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bqxx/Angewandte-Geowissenschaften-B-Sc/?lidx=1) & [Introduction to geological maps](https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bllm/Georessourcenmanagement-B-Sc/?lidx=1)). The easiest way to access the data is to [download the repository including all data from Github](https://github.com/cgre-aachen/gemgis_data/archive/refs/heads/main.zip). The course contains the following sections:
 
-1. [Introduction to structural geological modeling using GemPy and GemGIS](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/00_introduction_to_structural_modeling.ipynb)
+0. [Introduction to the course](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/00_introduction_to_structural_modeling.ipynb)
+1. [Introduction to structural geological modeling using GemPy and GemGIS](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/00_introduction_to_structural_modeling.ipynb)
     1. Introduction to structural geological models
     2. Introduction to GemPy and GemGIS
-    3. Resources for GemPy and GemGIS
-    4. Installation of GemPy and GemGIS
+    3. Purpose of structural geological models in Earth Sciences
+    4. Introduction to GemPy and GemGIS
+    5. Resources for GemPy and GemGIS
+    6. Installation of GemPy and GemGIS
 2. [Modeling of the basic structures in GemPy](https://github.com/cgre-aachen/gemgis_data/tree/main/notebooks/01_basic_modeling)
-    1. [Modeling planar layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model1_Horizontal_Layers.ipynb)
-    2. [Modeling folded layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model2_Folded_Layers.ipynb)
-    3. [Modeling faulted layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model3_Faulted_Layers.ipynb)
-    4. [Modeling truncated/unconformal layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model4_Truncated_Layers.ipynb)
+    1. [Modeling planar layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model1_Horizontal_Layers.ipynb)
+    2. [Modeling folded layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model2_Folded_Layers.ipynb)
+    3. [Modeling faulted layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model3_Faulted_Layers.ipynb)
+    4. [Modeling truncated/unconformal layers](https://nbviewer.org/github/cgre-aachen/gemgis_data/blob/main/notebooks/01_basic_modeling/model4_Truncated_Layers.ipynb)
 3. Modeling of more complex models including additional tasks (main part)
     1. [Planar dipping layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/02_planar_dipping_layers)
     2. [Folded layers](https://github.com/cgre-aachen/gemgis_data/blob/main/notebooks/03_folded_layers)
