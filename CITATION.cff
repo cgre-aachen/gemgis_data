@@ -9,11 +9,13 @@ authors:
     orcid: 0000-0001-6941-2685
   - family-names: Chudalla
     given-names: Nils
+  - family-names: Wagner
+    given-names: Jan David
   - family-names: Back
     given-names: Stefan
   - family-names: Wellmann
     given-names: Florian
     orcid: 0000-0003-2552-1876
-title: cgre-aachen/gemgis_data: v0.0.x
-version: v0.0.x
-date-released: 2022-12-30
+title: cgre-aachen/gemgis_data: v1.0.0
+version: v1.0.0
+date-released: 2023-05-09
