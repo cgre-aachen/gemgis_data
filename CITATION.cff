@@ -16,7 +16,7 @@ authors:
   - family-names: "Wellmann"
     given-names: "Florian"
     orcid: 0000-0003-2552-1876
-title: cgre-aachen/gemgis_data: v1.0.0
-version: v1.0.0
+title: cgre-aachen/gemgis_data: 1.0.0
+version: 1.0.0
 date-released: 2023-05-09
 url: "https://github.com/cgre-aachen/gemgis_data"
