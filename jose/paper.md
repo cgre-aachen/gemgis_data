@@ -107,7 +107,7 @@ The first four notebooks illustrate how to create the different structures that 
 
 ## Model Building using teaching materials
 
-In the section for the basic structural geological, models are presented where only one structural feature is present. Later on in the tutorial, the models include combinations of structural elements and therefore more complex models (Fig. \ref{fig3}). In addition, a topography is added to the models based on contour lines provided with the geological maps [@bennison; @powell]. 
+In the section for the basic structural geological modeling, models are presented where only one structural feature is present. Later on in the tutorial, the models include combinations of structural elements and therefore more complex models (Fig. \ref{fig3}). In addition, a topography is added to the models based on contour lines provided with the geological maps [@bennison; @powell]. 
 
 The biggest advantage of this tutorial is that the input data is not provided as a CSV file but as Shape Files created by the user in a GIS environment such as QGIS (Fig. \ref{fig2}). Here, the user should already be aware of which coordinate reference system the data is provided in. Using a cartesian coordinate system is recommended for the **GemPy** input data.
 
@@ -138,7 +138,7 @@ A very simple well sampling tool has been implemented to extract the intersected
 
 ## Creating ready-for publishing 3D models with Blender 
 
-To maximize the learning outcome, additional visualization techniques can be accessed. The open-source developed 3D creation suite Blender provides tools to model and edit meshes, to animate models, and to render the final result (Fig. \ref{fig6}). Ray tracing technologies and complex shaders for materials allow the creation of photorealistic renders of models [@Blender]. This way, the lecturer is capable of highlighting key aspects of geological models and producing attractive figures or videos on a professional level. 
+To maximize the learning outcome, additional visualization techniques can be accessed. The open-source 3D creation suite Blender provides tools to model and edit meshes, to animate models, and to render the final result (Fig. \ref{fig6}). Ray tracing technologies and complex shaders for materials allow the creation of photorealistic renders of models [@Blender]. This way, the lecturer is capable of highlighting key aspects of geological models and producing attractive figures or videos on a professional level. 
 
 
 ![Example 2 (see Fig. \ref{fig7}) visualized in Blender. \label{fig6}](./images/fig6.png){ width=80% }
