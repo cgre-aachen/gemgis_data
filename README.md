@@ -11,6 +11,7 @@
 ![Read the Docs](https://img.shields.io/readthedocs/gemgis)
 [![DOI](https://img.shields.io/badge/DOI-https%3A%2F%2Fdoi.org%2F10.5194%2Fegusphere--egu21--4613-blue)](https://doi.org/10.5194/egusphere-egu21-4613)
 [![DOI](https://zenodo.org/badge/309125606.svg)](https://zenodo.org/badge/latestdoi/309125606)
+[![DOI](https://jose.theoj.org/papers/10.21105/jose.00185/status.svg)](https://doi.org/10.21105/jose.00185)
 
 <p align="center"><img src="https://raw.githubusercontent.com/cgre-aachen/gemgis/main/docs/getting_started/images/task1.png" width="200"><img src="https://raw.githubusercontent.com/cgre-aachen/gemgis/main/docs/getting_started/images/model1.png" width="300"></p>
 Source: Powell, D. (1995): Interpretation geologischer Strukturen durch Karten - Eine praktische Anleitung mit Aufgaben und Lösungen, page 15, figure 10 A, Springer Verlag Berlin, Heidelberg, New York, ISBN: 978-3-540-58607-4.
