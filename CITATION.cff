@@ -1,23 +1,57 @@
-cff-version: 1.2.0
-message: "If you use the GemGIS Data Repository, please cite it as below."
+cff-version: "1.2.0"
 authors:
-  - family-names: "Jüstel"
-    given-names: "Alexander"
-    orcid: 0000-0003-0980-7479
-  - family-names: "de la Varga"
-    given-names: "Miguel"
-    orcid: 0000-0001-6941-2685
-  - family-names: "Chudalla"
-    given-names: "Nils"
-  - family-names: "Wagner"
-    given-names: "Jan David"
-  - family-names: "Back"
-    given-names: "Stefan"
-  - family-names: "Wellmann"
-    given-names: "Florian"
-    orcid: 0000-0003-2552-1876
-title: "cgre-aachen/gemgis_data: 1.0.0"
-version: 1.0.0
-date-released: 2023-05-09
-url: "https://github.com/cgre-aachen/gemgis_data"
-doi: 10.5281/zenodo.7494025
+- family-names: Jüstel
+  given-names: Alexander
+  orcid: "https://orcid.org/0000-0003-0980-7479"
+- family-names: Varga
+  given-names: Miguel
+  name-particle: de la
+  orcid: "https://orcid.org/0000-0001-6941-2685"
+- family-names: Chudalla
+  given-names: Nils
+- family-names: Wagner
+  given-names: Jan David
+  orcid: "https://orcid.org/0009-0007-7673-8334"
+- family-names: Back
+  given-names: Stefan
+  orcid: "https://orcid.org/0000-0003-3134-3367"
+- family-names: Wellmann
+  given-names: Florian
+  orcid: "https://orcid.org/0000-0003-2552-1876"
+message: If you use this software, please cite our article in the
+  Journal of Open Source Software.
+preferred-citation:
+  authors:
+  - family-names: Jüstel
+    given-names: Alexander
+    orcid: "https://orcid.org/0000-0003-0980-7479"
+  - family-names: Varga
+    given-names: Miguel
+    name-particle: de la
+    orcid: "https://orcid.org/0000-0001-6941-2685"
+  - family-names: Chudalla
+    given-names: Nils
+  - family-names: Wagner
+    given-names: Jan David
+    orcid: "https://orcid.org/0009-0007-7673-8334"
+  - family-names: Back
+    given-names: Stefan
+    orcid: "https://orcid.org/0000-0003-3134-3367"
+  - family-names: Wellmann
+    given-names: Florian
+    orcid: "https://orcid.org/0000-0003-2552-1876"
+  date-published: 2023-08-15
+  doi: 10.21105/jose.00185
+  issn: 2577-3569
+  issue: 66
+  journal: Journal of Open Source Education
+  publisher:
+    name: Open Journals
+  start: 185
+  title: From Maps to Models - Tutorials for structural geological
+    modeling using GemPy and GemGIS
+  type: article
+  url: "https://jose.theoj.org/papers/10.21105/jose.00185"
+  volume: 6
+title: From Maps to Models - Tutorials for structural geological
+  modeling using GemPy and GemGIS
