@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from os import path
 
-version = '0.0.2'
+version = 1.0.0'
 
 # Loading Readme for Description on PyPi
 this_directory = path.abspath(path.dirname(__file__))
@@ -16,7 +16,7 @@ setup(
     install_requires=[],
     url='https://github.com/cgre-aachen/gemgis_data',
     license='LGPL v3',
-    author='Alexander Jüstel, Miguel de la Varga, Nils Chudalla, Stefan Back, Florian Wellmann',
+    author='Alexander Jüstel, Miguel de la Varga, Nils Chudalla, Jan David Wagner, Stefan Back, Florian Wellmann',
     author_email='alexander.juestel@rwth-aachen.de',
     description="""GemGIS is a Python-based, open-source spatial data processing library.
                 It is capable of preprocessing spatial data such as vector data 
