@@ -7,10 +7,7 @@
 [![PyPI version](http://img.shields.io/pypi/v/gemgis_data.svg)](https://pypi.org/project/gemgis_data/)
 ![Conda](https://img.shields.io/conda/vn/conda-forge/gemgis_data)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/cgre-aachen/gemgis_data/blob/main/LICENSE)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cgre-aachen/gemgis/main)
 [![Documentation Status](https://assets.readthedocs.org/static/projects/badges/passing-flat.svg)](https://gemgis.readthedocs.io/en/latest/index.html)
-[![DOI](https://img.shields.io/badge/DOI-https%3A%2F%2Fdoi.org%2F10.5194%2Fegusphere--egu21--4613-blue)](https://doi.org/10.5194/egusphere-egu21-4613)
-[![DOI](https://zenodo.org/badge/309125606.svg)](https://zenodo.org/badge/latestdoi/309125606)
 [![DOI](https://jose.theoj.org/papers/10.21105/jose.00185/status.svg)](https://doi.org/10.21105/jose.00185)
 
 <p align="center"><img src="https://raw.githubusercontent.com/cgre-aachen/gemgis/main/docs/getting_started/images/task1.png" width="200"><img src="https://raw.githubusercontent.com/cgre-aachen/gemgis/main/docs/getting_started/images/model1.png" width="300"></p>
@@ -73,19 +70,22 @@ The tutorials provided in this repository aim at enabling students who want to b
 
 The GemGIS package mainly depends on [GeoPandas/Pandas](https://geopandas.org/en/stable/index.html), [Rasterio](https://rasterio.readthedocs.io/en/latest/) and [PyVista](https://docs.pyvista.org/). All geometric operations are performed using [Shapely](https://shapely.readthedocs.io/en/stable/manual.html). Numerical operations are performed using [NumPy](https://numpy.org/doc/stable/index.html) while plotting is done with [Matplotlib](https://matplotlib.org/). The structural modeling package [GemPy](https://www.gempy.org) is an optional dependency but is required to build the structural geological models. 
 
-The following dependency versions are recommended for using GemGIS (as of 2023-05-06):
-- Python >=3.9
-- GeoPandas >= 0.13 (lastest version update on 2023-06-05) 
-- Rasterio >= 1.3.6 (lastest version update on 2023-06-05) 
-- PyVista >= 0.39 (lastest version update on 2023-06-05) 
-- GemPy >= 2.2.12 (lastest version update on 2022-07-22) 
+The following dependency versions are recommended for using GemGIS (as of October 2025):
+- Python >=3.11
+- GeoPandas >= 1.1.1
+- Rasterio >= 1.4.3 
+- PyVista >= 0.46.3
+- GemPy >= 2025.2.0 
 
 <a name="ref"></a>
-## References
+## References and published articles utilizing GemGIS
 
-* Jüstel, A., Endlein Correira, A., Wellmann, F. and Pischke, M.: GemGIS – GemPy Geographic: Open-Source Spatial Data Processing for Geological Modeling. EGU General Assembly 2021, https://doi.org/10.5194/egusphere-egu21-4613, 2021
-* Jüstel, A., Endlein Correira, A., Pischke, M. and Wellmann, F.: GemGIS - Spatial Data Processing for Geomodeling. Journal of Open Source Software, 7(73), 3709, https://doi.org/10.21105/joss.03709, 2022
-* Jüstel, A.: 3D Probabilistic Modeling and Data Analysis of the Aachen-Weisweiler Area: Implications for Deep Geothermal Energy Exploration, unpublished Master Thesis at RWTH Aachen University, 2020
-* de la Varga, M., Schaaf, A., and Wellmann, F.: GemPy 1.0: open-source stochastic geological modeling and inversion, Geosci. Model Dev., 12, 1-32, https://doi.org/10.5194/gmd-12-1-2019, 2019
-* Powell, D.: Interpretation geologischer Strukturen durch Karten - Eine praktische Anleitung mit Aufgaben und Lösungen, Springer Verlag Berlin, Heidelberg, New York, ISBN: 978-3-540-58607-4, 1995
-* Bennison, G.M.: An Introduction to Geological Structures and Maps, Hodder Education Publication, pp. 78, ISBN: 978-1-4615-9632-5, 1988
+* Jüstel, A. et al.: 3D structural and probabilistic modelling of geothermal reservoir horizons in the Northern Eifel and its foreland. Zeitschrift der Deutschen Gesellschaft für Geowissenschaften, 176 (1), 115-146, https://doi.org/10.1127/zdgg/2025/0436, 2025   
+* Marquetto, L. et al.: Developing a 3D hydrostratigraphical model of the emerged part of the Pelotas Basin along the northern coast of Rio Grande do Sul state, Brazil. Environmental Earth Sciences, 83, 10, 329, https://doi.org/10.1007/s12665-024-11609-y, 2024
+* Jüstel, A. et al.: From Maps to Models - Tutorials for structural geological modeling using GemPy and GemGIS. Journal of Open Source Education, 6(66), 185, https://doi.org/10.21105/jose.00185, 2023.
+* Jüstel, A. et al.: GemGIS - Spatial Data Processing for Geomodeling. Journal of Open Source Software, 7(73), 3709, https://doi.org/10.21105/joss.03709, 2022.
+* Jüstel, A., Endlein Correira, A., Wellmann, F. and Pischke, M.: GemGIS – GemPy Geographic: Open-Source Spatial Data Processing for Geological Modeling. EGU General Assembly 2021, https://doi.org/10.5194/egusphere-egu21-4613, 2021.
+* Jüstel, A.: 3D Probabilistic Modeling and Data Analysis of the Aachen-Weisweiler Area: Implications for Deep Geothermal Energy Exploration, unpublished Master Thesis at RWTH Aachen University, 2020.
+* de la Varga, M., Schaaf, A., and Wellmann, F.: GemPy 1.0: open-source stochastic geological modeling and inversion, Geosci. Model Dev., 12, 1-32, https://doi.org/10.5194/gmd-12-1-2019, 2019.
+* Powell, D.: Interpretation of Geological Structures Through Maps: An Introductory Practical Manual, Longman, pp. 192, 1992.
+* Bennison, G.M.: An Introduction to Geological Structures and Maps, Hodder Education Publication, pp. 78, 1990.

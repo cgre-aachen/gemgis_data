@@ -7,9 +7,9 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| >0.0.1  | :white_check_mark: |
-| <0.0.1  | :x:                |
+| >1.0.0  | :white_check_mark: |
+| <1.0.0  | :x:                |
 
 ## Reporting a Vulnerability
 
-If you have found a vulnerability, please oopen an issue at https://github.com/cgre-aachen/gemgis_data/issues.
+If you have found a vulnerability, please open an issue at https://github.com/cgre-aachen/gemgis_data/issues.
