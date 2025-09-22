@@ -26,7 +26,7 @@ authors:
     orcid: 0000-0003-2552-1876
     affiliation: "1, 4"
 affiliations:
- - name: Fraunhofer IEG, Fraunhofer Research Institution for Energy Infrastructures and Geothermal Systems IEG, Kockerellstraße 17, 52062 Aachen, Germany
+ - name: Fraunhofer IEG, Fraunhofer Research Institution for Energy Infrastructures and Geotechnologies IEG, Kockerellstraße 17, 52062 Aachen, Germany
    index: 1
  - name: RWTH Aachen University, Geological Institute, Wüllnerstraße 2, 52062 Aachen, Germany
    index: 2
